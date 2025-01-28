@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <h1>Loading...</h1>
+  </div>
+  <script>
+    // Function to detect user language
+    function getUserLanguage() {
+      return navigator.language.startsWith("pt") ? "pt" : "en";
+    }
+
+    // Load the markdown file based on the user's language
+    async function loadPrivacyPolicy() {
+      const lang = getUserLanguage();
+      const filePath = `privacy_${lang}.md`;
+      try {
+        const response = await fetch(filePath);
+        if (!response.ok) throw new Error("File not found");
+        const markdown = await response.text();
+        displayMarkdown(markdown);
+      } catch (error) {
+        document.getElementById("content").innerHTML = `<h1>Error loading privacy policy</h1>`;
+      }
+    }
+
+    // Display markdown as HTML
+    async function displayMarkdown(markdown) {
+      const html = marked.parse(markdown); // Use Marked.js to parse Markdown
+      document.getElementById("content").innerHTML = html;
+    }
+
+    loadPrivacyPolicy();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- Marked.js for Markdown parsing -->
+</body>
+</html>
