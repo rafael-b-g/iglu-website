@@ -52,8 +52,10 @@ Com essas camadas de segurança, o Iglu proporciona um ambiente protegido para s
 Como usuário do Iglu, você tem total controle sobre seus dados, dentro das limitações descritas nesta política:
 
 Acesso e gestão: Você pode editar ou excluir suas entradas enquanto elas estiverem disponíveis para edição. Após 1 dia da criação de uma entrada, ela se torna imutável. Essa medida é adotada com o objetivo de preservar as memórias em sua forma original, promovendo um registro autêntico e confiável que potencializa o processo de reflexão e autodescoberta. Apesar disso, o Iglu permite que você faça comentários nas entradas mesmo após o período de 1 dia, possibilitando a adição de novas reflexões, atualizações ou contextos às memórias originais, sem alterar o conteúdo já registrado.
+
 Exclusão total: Caso deseje, você pode apagar todas as suas entradas e dados pessoais a qualquer momento, resetando o aplicativo para seu estado inicial. Essa ação exclui todas as informações armazenadas localmente no dispositivo e no iCloud, sendo irreversível.
- Controle de permissões: O Iglu respeita suas escolhas e não exige acesso à câmera, galeria ou localização para funcionar. Caso opte por não conceder essas permissões, o aplicativo continuará operando normalmente, apenas sem as funcionalidades que dependem desses acessos, como anexar fotos, vídeos ou dados de localização às entradas.
+
+Controle de permissões: O Iglu respeita suas escolhas e não exige acesso à câmera, galeria ou localização para funcionar. Caso opte por não conceder essas permissões, o aplicativo continuará operando normalmente, apenas sem as funcionalidades que dependem desses acessos, como anexar fotos, vídeos ou dados de localização às entradas.
  
 
 ## Cookies e Tecnologias de Rastreamento
