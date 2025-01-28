@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f3f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    a {
+      font-size: 1.5rem;
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <a id="support-link" href="mailto:iglu@iglu.website">Email Support: iglu@iglu.website</a>
+
+  <script>
+    // Get the user's language from the browser
+    const userLanguage = navigator.language || navigator.userLanguage;
+
+    // Get the support link element
+    const supportLink = document.getElementById("support-link");
+
+    // Change the text based on the user's language
+    if (userLanguage.startsWith("pt")) {
+      supportLink.textContent = "Suporte por e-mail: iglu@iglu.website";
+    }
+  </script>
+</body>
+</html>

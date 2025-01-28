@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backup Your Mind</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f3f4f6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    h1 {
+      font-size: 5rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="landing-text">Backup your mind</h1>
+
+  <script>
+    // Get the user's language from the browser
+    const userLanguage = navigator.language || navigator.userLanguage;
+
+    // Get the landing text element
+    const landingText = document.getElementById("landing-text");
+
+    // Change the text based on the user's language
+    if (userLanguage.startsWith("pt")) {
+      landingText.textContent = "O backup da sua mente";
+    }
+  </script>
+</body>
+</html>
