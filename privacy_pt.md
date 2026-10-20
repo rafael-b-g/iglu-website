@@ -1,123 +1,57 @@
-# Política de Privacidade do Iglu
+# Política de Privacidade do iglu
 
-Bem-vindo ao Iglu! Esta Política de Privacidade descreve como lidamos com seus dados pessoais e garantimos sua privacidade enquanto você usa nosso aplicativo de diário pessoal inteligente. Nosso compromisso é proteger suas informações e fornecer transparência total sobre como elas são gerenciadas.
+**Última atualização: 20 de outubro de 2026**
 
-## Introdução
+O iglu é operado por **Rafael Guimarães, no Brasil**. Para dúvidas ou solicitações sobre privacidade, envie um e-mail para **[hello@iglu.website](mailto:hello@iglu.website)**.
 
-O Iglu é um aplicativo de diário pessoal projetado para ajudar você a organizar suas ideias, memórias e pensamentos de forma segura, privativa, fácil e inteligente. Esta política explica como asseguramos que seus dados permaneçam exclusivamente sob seu controle.
+Esta política abrange o aplicativo, seus widgets e seu App Clip. Não é necessário criar uma conta para usar o iglu.
 
-## Coleta e Armazenamento de Dados
+## Seu diário
 
-O Iglu não armazena ou processa dados dos usuários em servidores próprios. Todas as informações criadas e gerenciadas no aplicativo são armazenadas no dispositivo do usuário e automaticamente sincronizadas com o iCloud. Essa sincronização serve como uma medida de segurança para proteger os dados contra perda ou danos ao dispositivo, garantindo a integridade e recuperação dos dados.
+Suas entradas, respostas, datas, fotos, vídeos, histórico de pesquisa e preferências são armazenados para oferecer seu diário. As entradas, fotos, o histórico de pesquisa e os dados derivados usados nas pesquisas e recomendações podem ser sincronizados pelo armazenamento privado da sua conta do iCloud. Os arquivos de vídeo ficam no seu dispositivo e podem ser incluídos nos backups do dispositivo. As mídias selecionadas podem manter metadados incorporados.
 
-O Iglu não solicita nem coleta informações pessoais, como nome, e-mail ou qualquer outro dado que possa identificar o usuário, para nossos próprios servidores. No entanto, o aplicativo permite que os usuários anexem a localização de onde cada entrada foi escrita, bem como fotos e vídeos às entradas.
+As pesquisas e recomendações são processadas no seu dispositivo. Elas criam representações numéricas do que você escreve para encontrar e reapresentar entradas. Não enviamos seu diário ou suas pesquisas a um serviço externo de IA, nem os usamos para treinar modelos de IA. Os serviços de análise de uso e de compras não recebem o conteúdo do seu diário.
 
-Os dados de localização, fotos e vídeos são vinculados apenas às entradas do próprio usuário e permanecem armazenados exclusivamente no dispositivo e no iCloud, sem qualquer coleta, processamento ou acesso por parte do Iglu. Além disso, o usuário tem total liberdade para decidir se o aplicativo Iglu terá acesso aos dados de anexos contextuais, como localização, fotos ou vídeos, podendo gerenciar essas permissões a qualquer momento.
+## Análise de uso
 
-Independentemente das permissões concedidas ao aplicativo, a empresa Iglu nunca terá acesso a nenhum dado do usuário, nem mesmo mediante autorização explícita.
+Usamos o **Aptabase** para entender o uso e melhorar o iglu. O aplicativo e o App Clip enviam automaticamente eventos sobre aberturas, telas, ações em entradas e pesquisas, ajustes, resultados do Face ID, lembretes, compras, exportações e indicações. Os eventos incluem contagens, como a quantidade de caracteres das entradas e de anexos, os planos selecionados e resultados de sucesso ou falha.
 
-O armazenamento no iCloud está em conformidade com a política de privacidade da Apple. O Iglu não tem acesso, visualização ou controle sobre os dados armazenados no iCloud, respeitando a privacidade total do usuário.
+O Aptabase também recebe horários, identificadores temporários, versões do aplicativo e do SDK, sistema operacional, modelo do dispositivo e idioma. Ele usa endereços IP e informações de agente de usuário para determinar o país ou a região e um identificador que muda diariamente, sem manter esses endereços IP ou essas informações de agente de usuário junto aos dados de análise. Essa análise não usa identificadores persistentes de dispositivo ou de publicidade.
 
-## Uso de Dados
+A análise não inclui o texto do diário, fotos, vídeos, termos pesquisados, identificadores de entradas ou identificadores de indicação.
 
-Os dados inseridos no Iglu são utilizados exclusivamente para proporcionar uma experiência personalizada e intuitiva ao usuário, com os seguintes objetivos:
+## Compras e indicações
 
-- Recomendações inteligentes: O aplicativo sugere entradas relacionadas com base no conteúdo inserido, ajudando o usuário a relembrar e conectar pensamentos, memórias e ideias.
+A **Apple e o RevenueCat** processam informações de compras para oferecer e restaurar o acesso, gerenciar períodos de teste e ofertas e apresentar relatórios sobre a atividade das assinaturas. O RevenueCat recebe um identificador de usuário gerado para o aplicativo, o identificador de dispositivo da Apple para o fornecedor, informações de transações e recibos, situação da assinatura, endereço IP, versões do dispositivo e do aplicativo, idioma e país da App Store. Ele é inicializado quando o aplicativo é aberto, mesmo sem uma compra. A Apple cuida dos dados de pagamento; não recebemos o número do seu cartão.
 
-- Pesquisa inteligente: Organiza e apresenta entradas existentes de forma eficiente, conforme os comandos de busca fornecidos pelo usuário.
+As indicações usam identificadores do iCloud específicos do aplicativo para conectar quem convida e quem recebe o convite, conceder créditos e evitar recompensas duplicadas. Os registros das indicações e as datas de criação e resgate são armazenados no banco de dados público do CloudKit da Apple, separados do seu diário privado. Os links de convite contêm o identificador de quem convida, visível para os destinatários e os serviços que processam o link. O App Clip salva esse identificador para o aplicativo completo.
 
-- Anexos contextuais: Permite que o usuário vincule data, hora, localização, fotos e vídeos às entradas, facilitando a organização e contextualização de suas memórias e registros.
+## Permissões e suporte
 
-Todo o processamento de dados ocorre localmente no dispositivo do usuário. Dados armazenados no iCloud, como backup ou para sincronização, seguem as regras de privacidade e segurança da Apple. Em nenhum momento o Iglu transfere, processa ou utiliza os dados do usuário fora do ambiente local do dispositivo ou do iCloud, garantindo total privacidade.
+O acesso à câmera, ao microfone e ao seletor de fotos permite anexar mídias. As notificações oferecem lembretes agendados no seu dispositivo. O Face ID opcional usa a autenticação da Apple; o iglu recebe o resultado, não sua imagem facial ou seu modelo biométrico. Você pode gerenciar as permissões nos Ajustes do iOS.
 
-## Compartilhamento de Dados
+Se você nos enviar um e-mail, receberemos seu endereço de e-mail, a mensagem e os anexos e os usaremos para atender à sua solicitação. Nossa caixa de e-mail de suporte usa o Mail do iCloud.
 
-No Iglu, sua privacidade é nossa prioridade. Não compartilhamos, vendemos, trocamos ou transferimos qualquer dado dos usuários para terceiros, incluindo anunciantes, parceiros comerciais ou qualquer outra entidade.
+## Como as informações são usadas e compartilhadas
 
-Todas as informações inseridas no aplicativo, incluindo entradas, anexos de localização, fotos, vídeos e quaisquer outros dados, permanecem sob seu controle e são armazenadas exclusivamente no seu dispositivo e no iCloud. Não utilizamos seus dados para fins comerciais, análises externas ou qualquer atividade que comprometa sua privacidade.
+Usamos as informações para oferecer o iglu, gerenciar compras e indicações, melhorar a confiabilidade, evitar abusos e responder a solicitações. Quando uma base legal é necessária, nos fundamentamos na prestação dos serviços que você solicita, em interesses legítimos de melhoria e suporte e nas obrigações legais aplicáveis.
 
-Adicionalmente, o Iglu foi projetado para funcionar sem a necessidade de interação com servidores próprios, o que elimina qualquer risco de vazamento ou exposição indevida de informações. Mesmo em casos de suporte técnico, nunca solicitaremos acesso aos seus dados pessoais ou registros.
+A Apple, o RevenueCat e o Aptabase processam informações para as finalidades descritas acima. Eles podem processá-las fora do seu país, inclusive nos Estados Unidos. As informações também são enviadas aos destinos que você escolhe ao exportar ou compartilhar e podem ser divulgadas quando exigido por lei ou necessário para o exercício ou a defesa de direitos em processos.
 
-Com o Iglu, você tem a garantia de que suas informações são privadas, seguras e usadas exclusivamente por você, como parte de nossa dedicação à proteção da sua confiança e confidencialidade.
+Não vendemos informações pessoais nem as usamos para publicidade direcionada.
 
-## Armazenamento e Segurança dos Dados
+## Seus dados e suas escolhas
 
-Os dados do Iglu são armazenados localmente no dispositivo do usuário e no iCloud. Para garantir a segurança e a privacidade das suas informações, o Iglu depende da criptografia nativa do sistema operacional do seu dispositivo iOS. Esta criptografia é projetada para garantir que seus dados permaneçam seguros, mesmo que seu dispositivo seja perdido ou acessado por terceiros não autorizados.
+Você pode excluir entradas, anexos e pesquisas individuais no aplicativo e exportar entradas e anexos como um arquivo ZIP. Cópias no iCloud, backups e exportações podem permanecer separadamente. Excluir o aplicativo não cancela uma assinatura nem exclui todos os registros na nuvem, de compras ou de indicações.
 
-Recomendamos que você mantenha seu dispositivo protegido com senhas, biometria e que realize atualizações regulares de segurança do sistema operacional do seu dispositivo para evitar acessos não autorizados. O Iglu não armazena ou processa dados em servidores próprios, eliminando riscos de exposição em servidores externos.
+Os dados do diário permanecem até serem excluídos. Os registros dos serviços são mantidos conforme sua finalidade: restaurar compras, administrar créditos, evitar recompensas duplicadas, prestar suporte ou cumprir obrigações legais. As práticas de retenção e backup dos fornecedores também se aplicam.
 
-Ao utilizar o iCloud para sincronização, a Apple aplica criptografia, assegurando que seus dados sejam protegidos durante a transmissão e o armazenamento, com apenas você tendo acesso a eles.
+Conforme a legislação aplicável, você pode ter direitos de acessar, corrigir, excluir, exportar, restringir ou se opor ao tratamento de dados pessoais e de retirar o consentimento quando o tratamento se basear nele. Entre em contato pelo e-mail **[hello@iglu.website](mailto:hello@iglu.website)** para exercer esses direitos. Podemos precisar verificar sua solicitação. Talvez não seja possível identificar seus dados de análise de uso, pois eles não têm um identificador pessoal persistente. Você também pode apresentar uma reclamação à autoridade de proteção de dados da sua região.
 
-Com essas camadas de segurança, o Iglu proporciona um ambiente protegido para suas memórias, ideias e pensamentos.
+## Segurança, crianças e atualizações
 
-## Direitos do Usuário
+O iglu usa as proteções de dispositivo e do iCloud da Apple e conexões criptografadas com seus serviços de análise de uso e compras. Nenhum sistema é completamente seguro.
 
-Como usuário do Iglu, você tem total controle sobre seus dados, dentro das limitações descritas nesta política:
+Entre em contato se acreditar que uma criança forneceu informações pessoais sem a autorização dos responsáveis exigida por lei.
 
-- Acesso e gestão: Você pode editar ou excluir suas entradas enquanto elas estiverem disponíveis para edição. Após 1 dia da criação de uma entrada, ela se torna imutável. Essa medida é adotada com o objetivo de preservar as memórias em sua forma original, promovendo um registro autêntico e confiável que potencializa o processo de reflexão e autodescoberta. Apesar disso, o Iglu permite que você faça comentários nas entradas mesmo após o período de 1 dia, possibilitando a adição de novas reflexões, atualizações ou contextos às memórias originais, sem alterar o conteúdo já registrado.
-
-- Exclusão total: Caso deseje, você pode apagar todas as suas entradas e dados pessoais a qualquer momento, resetando o aplicativo para seu estado inicial. Essa ação exclui todas as informações armazenadas localmente no dispositivo e no iCloud, sendo irreversível.
-
-- Controle de permissões: O Iglu respeita suas escolhas e não exige acesso à câmera, galeria ou localização para funcionar. Caso opte por não conceder essas permissões, o aplicativo continuará operando normalmente, apenas sem as funcionalidades que dependem desses acessos, como anexar fotos, vídeos ou dados de localização às entradas.
- 
-
-## Cookies e Tecnologias de Rastreamento
-
-O Iglu não utiliza cookies nem tecnologias de rastreamento para coletar informações sobre os usuários.
-
- 
-
-## Uso do Iglu por Menores de Idade
-
-O Iglu é um aplicativo classificado para todas as idades, podendo ser utilizado por usuários de qualquer faixa etária. No entanto, o uso por menores de idade deve seguir as diretrizes legais aplicáveis e as boas práticas de proteção de dados.
-
-O Iglu não coleta informações pessoais que possam identificar o usuário diretamente, como nome, e-mail ou número de telefone, e foi projetado para garantir a privacidade e segurança de seus dados. Ainda assim, é responsabilidade dos pais ou responsáveis legais supervisionar o uso do aplicativo por menores de idade, especialmente crianças menores de 13 anos.
-
-De acordo com as exigências legais, como o Estatuto da Criança e do Adolescente (ECA), a Lei Geral de Proteção de Dados (LGPD) e a Children's Online Privacy Protection Act (COPPA), ao permitir o uso do Iglu por menores, os responsáveis legais devem:
-
-- Garantir que o uso do aplicativo seja apropriado para a idade e maturidade do menor.
-
-- Monitorar as permissões concedidas ao aplicativo, como acesso à câmera, galeria e localização.
-
-- Avaliar as funcionalidades do aplicativo para assegurar que estão sendo usadas de maneira segura e benéfica.
-
-O Iglu, por sua vez, reforça seu compromisso com a privacidade, garantindo que os dados dos usuários, incluindo os de menores, sejam armazenados exclusivamente no dispositivo do usuário e no iCloud, sem acesso ou processamento por parte da empresa.
-
-Recomendamos que os pais orientem as crianças a usar o Iglu de forma segura e consciente, explicando que o aplicativo é um espaço pessoal para registrar memórias, reflexões e pensamentos. Além disso, é importante acompanhar as permissões concedidas, reforçar a segurança do dispositivo e incentivar o hábito de uso responsável.
-
-## Alterações na Política de Privacidade
-
-A Política de Privacidade do Iglu será revisada e atualizada pelo menos uma vez por ano para incorporar atualizações no aplicativo, ajustes legais ou melhorias nos nossos serviços. Quando ocorrerem alterações, os usuários serão informados de forma clara por meio de notificações no próprio aplicativo, garantindo total transparência.
-
- 
-
-## Conformidade com Leis de Proteção de Dados
-
-O Iglu opera em total conformidade com a Lei Geral de Proteção de Dados (LGPD) no Brasil, além de outras legislações de proteção de dados aplicáveis em diferentes jurisdições, como a CCPA (California Consumer Privacy Act) e a COPPA (Children's Online Privacy Protection Act).
-
-Nosso compromisso é assegurar que nenhuma informação pessoal seja acessada, coletada, processada ou compartilhada por nossa empresa, garantindo aos usuários privacidade e segurança total ao utilizar o aplicativo.
-
- 
-
-## Contatos para Suporte
-
-Se você tiver dúvidas, preocupações ou solicitações relacionadas a esta Política de Privacidade, entre em contato conosco:
-
-Email: [iglu@iglu.website](mailto:iglu@iglu.website)
- 
-
-## Ausência de Links ou Integrações com Terceiros
-
-O Iglu não contém links para sites externos nem integrações com serviços de terceiros que possam acessar ou processar os dados dos usuários.
-
-O aplicativo também não utiliza APIs externas ou qualquer ferramenta de terceiros que possa comprometer a privacidade e segurança das informações dos usuários, garantindo total proteção e controle sobre seus dados.
-
-## Garantia de Não Discriminação
-
-O Iglu valoriza a privacidade e os direitos de todos os usuários. Garantimos que nenhum usuário será discriminado por exercer seus direitos de privacidade, conforme descrito nesta política. Isso significa que:
-
-- O acesso ao aplicativo, suas funcionalidades e a qualidade da experiência oferecida pelo Iglu não serão afetados caso você opte por exercer seus direitos, como a exclusão de dados ou a restrição de permissões.
-
-- Não restringiremos ou limitaremos o uso do aplicativo por conta de decisões relacionadas às configurações de privacidade.
-
-Nosso compromisso é proporcionar uma experiência igualitária, segura e respeitosa para todos os usuários, independentemente das escolhas feitas em relação à privacidade de seus dados.
+Atualizaremos esta página e sua data quando a política mudar, com aviso adicional quando exigido.

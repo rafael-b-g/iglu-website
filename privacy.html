@@ -23,6 +23,7 @@
   <div id="content">
     <h1>Loading...</h1>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     // Function to detect user language
     function getUserLanguage() {
@@ -32,7 +33,7 @@
     // Load the markdown file based on the user's language
     async function loadPrivacyPolicy() {
       const lang = getUserLanguage();
-      const filePath = `privacy_${lang}.md`;
+      const filePath = `privacy_${lang}.md?v=c6340a997635`;
       try {
         const response = await fetch(filePath);
         if (!response.ok) throw new Error("File not found");
@@ -51,6 +52,6 @@
 
     loadPrivacyPolicy();
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- Marked.js for Markdown parsing -->
+   <!-- Marked.js for Markdown parsing -->
 </body>
 </html>
