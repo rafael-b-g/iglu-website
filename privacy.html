@@ -25,15 +25,9 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    // Function to detect user language
-    function getUserLanguage() {
-      return navigator.language.startsWith("pt") ? "pt" : "en";
-    }
-
-    // Load the markdown file based on the user's language
+    // Always serve the English privacy policy.
     async function loadPrivacyPolicy() {
-      const lang = getUserLanguage();
-      const filePath = `privacy_${lang}.md?v=c6340a997635`;
+      const filePath = "privacy_en.md?v=020e355f3235";
       try {
         const response = await fetch(filePath);
         if (!response.ok) throw new Error("File not found");
@@ -52,6 +46,5 @@
 
     loadPrivacyPolicy();
   </script>
-   <!-- Marked.js for Markdown parsing -->
 </body>
 </html>
